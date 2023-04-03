@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using phenomenal.penguins.Domain.Catalog;
 
-namespace phenomenal.penguins.api.controllers
+namespace phenomenal.penguins.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]

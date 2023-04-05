@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\phenomenal.penguins.Domain\phenomenal.penguins.Domain.csproj" />
+    <ProjectReference Include="..\phenomenal.penguins.Data\phenomenal.penguins.Data.csproj" />
   </ItemGroup>
 
 </Project>

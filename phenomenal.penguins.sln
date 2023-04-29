@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "phenomenal.penguins.Domain"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "phenomenal.penguins.Data", "phenomenal.penguins.Data\phenomenal.penguins.Data.csproj", "{3A40C801-83C1-4711-9E41-05615BBED512}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C0647BBF-F2A4-4D10-AB97-18098DBC342B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "phenomenal.penguins.Domain.Tests", "tests\phenomenal.penguins.Domain.Tests\phenomenal.penguins.Domain.Tests.csproj", "{2CC2A4F8-9E98-4A75-8459-12573E6D74E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,12 @@ Global
 		{3A40C801-83C1-4711-9E41-05615BBED512}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A40C801-83C1-4711-9E41-05615BBED512}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A40C801-83C1-4711-9E41-05615BBED512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC2A4F8-9E98-4A75-8459-12573E6D74E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC2A4F8-9E98-4A75-8459-12573E6D74E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC2A4F8-9E98-4A75-8459-12573E6D74E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC2A4F8-9E98-4A75-8459-12573E6D74E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CC2A4F8-9E98-4A75-8459-12573E6D74E6} = {C0647BBF-F2A4-4D10-AB97-18098DBC342B}
 	EndGlobalSection
 EndGlobal

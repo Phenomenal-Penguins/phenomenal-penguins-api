@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using phenomenal.penguins.Domain.Catalog;
 using phenomenal.penguins.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace phenomenal.penguins.Api.Controllers
 {
@@ -76,6 +77,7 @@ namespace phenomenal.penguins.Api.Controllers
      }
 
      [HttpDelete("{id:int}")]
+     [Authorize("delete:catalog")]
      public IActionResult DeleteItem(int id)
      {
         var item = _db.Items.Find(id);
